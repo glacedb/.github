@@ -1,0 +1,6 @@
+# Default owners for everything
+* @glacedb/core
+
+# Security-sensitive files
+SECURITY.md @glacedb/security
+.github/workflows/ @glacedb/core
