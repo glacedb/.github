@@ -1,0 +1,58 @@
+# =============================================================================
+# Git Ignore - .github (glacedb public org profile)
+# =============================================================================
+#
+# This repo only holds the public org profile (`profile/README.md`) and a few
+# org-wide community health files. No build artifacts, no source code.
+#
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+# Operating System
+# -----------------------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+
+# -----------------------------------------------------------------------------
+# Editors
+# -----------------------------------------------------------------------------
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+.null-ls*
+
+# IntelliJ / JetBrains
+.idea/
+
+# VS Code — ignore all except shared configs
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+
+# -----------------------------------------------------------------------------
+# Local notes / scratch
+# -----------------------------------------------------------------------------
+
+*.local
+*.local.md
+.scratch/
+TODO.local.md
