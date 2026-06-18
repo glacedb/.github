@@ -18,3 +18,33 @@ trim_trailing_whitespace = false
 
 [Makefile]
 indent_style = tab
+
+
+# =============================================================================
+# Rust  (added by config standardization)
+# =============================================================================
+#
+# rustfmt uses 4-space indentation and a 100-column width.
+# https://rust-lang.github.io/rustfmt/
+#
+# -----------------------------------------------------------------------------
+
+[*.rs]
+indent_style               = space
+indent_size                = 4
+max_line_length            = 100
+
+
+# =============================================================================
+# Go  (added by config standardization)
+# =============================================================================
+#
+# gofmt requires TAB indentation; it does not enforce a line length.
+# https://pkg.go.dev/cmd/gofmt
+#
+# -----------------------------------------------------------------------------
+
+[*.go]
+indent_style               = tab
+tab_width                  = 4
+max_line_length            = off
