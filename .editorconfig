@@ -24,7 +24,7 @@ indent_style = tab
 # Rust  (added by config standardization)
 # =============================================================================
 #
-# rustfmt uses 4-space indentation and a 100-column width.
+# rustfmt uses 4-space indentation and a 79-column width.
 # https://rust-lang.github.io/rustfmt/
 #
 # -----------------------------------------------------------------------------
@@ -32,7 +32,7 @@ indent_style = tab
 [*.rs]
 indent_style               = space
 indent_size                = 4
-max_line_length            = 100
+max_line_length            = 79
 
 
 # =============================================================================
